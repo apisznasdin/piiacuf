@@ -19,7 +19,7 @@
 		<img src="https://scontent.xx.fbcdn.net/v/t1.0-9/14956474_734919816663279_2558478073288831296_n.jpg?oh=aa3267acb3db451f5fe548da8a9dd83f&oe=58C9FE58"
 			class="img-responsive" alt="Responsive image">
 
-		<div class="panel panel-default">
+		<div id="soalan1" class="panel panel-default" style="display:none">
 			<div class="panel-heading">
 				<h3 class="panel-title">Soalan 1</h3>
 			</div>
@@ -28,7 +28,7 @@
 			</div>
 		</div>
 
-		<div class="panel panel-default">
+		<div id="soalan2" class="panel panel-default" style="display:none">
 			<div class="panel-heading">
 				<h3 class="panel-title">Soalan 2</h3>
 			</div>
@@ -37,11 +37,132 @@
 			</div>
 		</div>
 
+		<div id="soalan3" class="panel panel-default" style="display:none">
+			<div class="panel-heading">
+				<h3 class="panel-title">Soalan 3</h3>
+			</div>
+			<div class="panel-body">
+				xxx
+			</div>
+		</div>
+
+		<div id="soalan4" class="panel panel-default" style="display:none">
+			<div class="panel-heading">
+				<h3 class="panel-title">Soalan 4</h3>
+			</div>
+			<div class="panel-body">
+				xxx
+			</div>
+		</div>
+
+		<div id="soalan5" class="panel panel-default" style="display:none">
+			<div class="panel-heading">
+				<h3 class="panel-title">Soalan 5</h3>
+			</div>
+			<div class="panel-body">
+				xxx
+			</div>
+		</div>
+
+		<div id="soalan6" class="panel panel-default" style="display:none">
+			<div class="panel-heading">
+				<h3 class="panel-title">Soalan 6</h3>
+			</div>
+			<div class="panel-body">
+				xxx
+			</div>
+		</div>
+
+		<div id="soalan7" class="panel panel-default" style="display:none">
+			<div class="panel-heading">
+				<h3 class="panel-title">Soalan 7</h3>
+			</div>
+			<div class="panel-body">
+				xxx
+			</div>
+		</div>
+
+		<div id="soalan8" class="panel panel-default" style="display:none">
+			<div class="panel-heading">
+				<h3 class="panel-title">Soalan 8</h3>
+			</div>
+			<div class="panel-body">
+				xxx
+			</div>
+		</div>
+
+		<div id="soalan9" class="panel panel-default" style="display:none">
+			<div class="panel-heading">
+				<h3 class="panel-title">Soalan 9</h3>
+			</div>
+			<div class="panel-body">
+				xxx
+			</div>
+		</div>
+
+		<div id="soalan10" class="panel panel-default" style="display:none">
+			<div class="panel-heading">
+				<h3 class="panel-title">Soalan 10</h3>
+			</div>
+			<div class="panel-body">
+				xxx
+			</div>
+		</div>
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 			crossorigin="anonymous"></script>
+
+		<script>
+            window.setInterval(function() {
+
+  var current = new Date();
+  var show1 = new Date("November 7, 2016 08:00:00")
+  var show2 = new Date("November 10, 2016 08:00:00")
+  var show3 = new Date("November 14, 2016 08:00:00")
+  var show4 = new Date("November 17, 2016 08:00:00")
+  var show5 = new Date("November 21, 2016 08:00:00")
+  var show6 = new Date("November 24, 2016 08:00:00")
+  var show7 = new Date("November 28, 2016 08:00:00")
+  var show8 = new Date("December 1, 2016 08:00:00")
+  var show9 = new Date("December 5, 2016 08:00:00")
+  var show10 = new Date("December 8, 2016 08:00:00")
+
+  if (current.getTime() > show1.getTime()) {
+    $('#soalan1').show();
+  }
+  if (current.getTime() > show2.getTime()) {
+    $('#soalan2').show();
+  }
+  if (current.getTime() > show3.getTime()) {
+    $('#soalan3').show();
+  }
+  if (current.getTime() > show4.getTime()) {
+    $('#soalan4').show();
+  }
+  if (current.getTime() > show5.getTime()) {
+    $('#soalan5').show();
+  }
+  if (current.getTime() > show6.getTime()) {
+    $('#soalan6').show();
+  }
+  if (current.getTime() > show7.getTime()) {
+    $('#soalan7').show();
+  }
+  if (current.getTime() > show8.getTime()) {
+    $('#soalan8').show();
+  }
+  if (current.getTime() > show9.getTime()) {
+    $('#soalan9').show();
+  }
+  if (current.getTime() > show10.getTime()) {
+    $('#soalan10').show();
+  }
+
+}, 0);
+        </script>
 	</body>
 
 </html>
